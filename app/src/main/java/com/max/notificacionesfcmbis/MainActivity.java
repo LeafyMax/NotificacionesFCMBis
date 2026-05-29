@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
-
+/*asda*/
     private void showSendGlobalDialog() {
         View view = LayoutInflater.from(this).inflate(R.layout.dialog_send_global, null);
         EditText etNombre = view.findViewById(R.id.etGlobalNombre);
