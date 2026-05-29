@@ -56,7 +56,7 @@ jobs:
   e2e:
     name: E2E Tests (Espresso)
     needs: build
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout código
         uses: actions/checkout@v4
@@ -71,10 +71,11 @@ jobs:
       - name: Ejecutar pruebas Espresso en Emulador
         uses: reactivecircus/android-emulator-runner@v2
         with:
-          api-level: 33
-          target: google_apis
-          arch: arm64-v8a
+          api-level: 29
+          target: default
+          arch: x86_64
           profile: Nexus 6
+          disable-animations: true
           script: |
             chmod +x ./gradlew
             ./gradlew connectedDebugAndroidTest
