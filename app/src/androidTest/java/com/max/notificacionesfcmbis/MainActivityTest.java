@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.click;
 import static androidx.test.espresso.action.ViewActions.closeSoftKeyboard;
-import static androidx.test.espresso.action.ViewActions.typeText;
+import static androidx.test.espresso.action.ViewActions.replaceText;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
 import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
@@ -49,11 +49,11 @@ public class MainActivityTest {
 
         // Escribir en el título
         onView(withId(R.id.etTitle))
-                .perform(typeText("Tarea E2E"), closeSoftKeyboard());
+                .perform(replaceText("Tarea E2E"), closeSoftKeyboard());
 
         // Escribir en la descripción
         onView(withId(R.id.etDescription))
-                .perform(typeText("Descripción E2E"), closeSoftKeyboard());
+                .perform(replaceText("Descripción E2E"), closeSoftKeyboard());
 
         // Verificar que el texto se introdujo correctamente
         onView(withId(R.id.etTitle)).check(matches(withText("Tarea E2E")));
