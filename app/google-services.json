@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "35533123616",
+    "project_id": "notificacionesfcmftpmax",
+    "storage_bucket": "notificacionesfcmftpmax.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35533123616:android:a1b83fe4846a7476240c45",
+        "android_client_info": {
+          "package_name": "com.max.notificacionesfcmbis"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmN_pwyaJUUaaeZaBJ1x-Fgyo-3qpQoEQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

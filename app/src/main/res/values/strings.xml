@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Tareas</string>
+    
+    <!-- Navigation Drawer -->
+    <string name="menu_tasks">Mis Tareas</string>
+    <string name="menu_checklists">Checklists</string>
+    <string name="menu_settings">Ajustes</string>
+    
+    <!-- Tabs -->
+    <string name="tab_pending">Pendientes</string>
+    <string name="tab_completed">Completadas</string>
+    
+    <!-- Actions -->
+    <string name="action_delete_all">Eliminar todo</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="undo">Deshacer</string>
+    
+    <!-- Dialogs -->
+    <string name="confirm_delete_all">¿Estás seguro de que quieres eliminar todas las tareas?</string>
+    <string name="confirm_delete_task">¿Eliminar esta tarea?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Guardar</string>
+    <string name="add">Añadir</string>
+    
+    <!-- Task Fields -->
+    <string name="hint_title">Título</string>
+    <string name="hint_description">Descripción</string>
+    <string name="hint_category">Categoría</string>
+    <string name="hint_date">Fecha y Hora</string>
+    
+    <!-- Checklist -->
+    <string name="add_checklist">Nueva Checklist</string>
+    <string name="add_item">Añadir elemento</string>
+    <string name="hint_checklist_title">Nombre de la lista</string>
+    <string name="hint_item_text">Elemento</string>
+    
+    <!-- Messages -->
+    <string name="task_saved">Tarea guardada con éxito</string>
+    <string name="task_deleted">Tarea eliminada</string>
+    <string name="fill_fields">Por favor, rellena todos los campos</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Ajustes</string>
+    <string name="pref_notif_title">Activar Notificaciones</string>
+    <string name="pref_user_name_title">Nombre de Usuario</string>
+    <string name="pref_user_name_summary">Este nombre aparecerá en el menú lateral</string>
+</resources>

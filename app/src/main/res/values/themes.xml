@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NotificacionesFCMbis" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+    </style>
+
+    <style name="Theme.NotificacionesFCMbis" parent="Base.Theme.NotificacionesFCMbis" />
+
+    <style name="Theme.NotificacionesFCMbis.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.NotificacionesFCMbis.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
